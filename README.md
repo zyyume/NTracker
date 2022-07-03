@@ -37,9 +37,9 @@ D:\ShinTracker
 │   track.py # tracking script for yolov5
 │   tracker.py # ShinTracker code
 │
-├───input
-│       demo.jpg
-│       demo.mp4
+├───input # files to be tracked
+│       demo1.mp4
+│       demo2.mp4
 │
 ├───output # tracking output
 ├───weights # put downloaded weights here
