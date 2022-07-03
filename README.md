@@ -9,9 +9,7 @@ Below is an example of NTracker with [yolov5 detector](https://github.com/ultral
 <details open>
 <summary>Installation</summary>
 
-Install [cuda](https://developer.nvidia.com/cuda-downloads) 
-
-Install [pytorch](https://pytorch.org/)
+Install [cuda](https://developer.nvidia.com/cuda-downloads) and [pytorch](https://pytorch.org/)
 
 ```bash
 ### clone this repo
