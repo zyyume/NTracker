@@ -33,7 +33,7 @@ download [yolov5 weights](https://github.com/ultralytics/yolov5/releases)
 
 ```bash
 ### install yolov5
-D:\object_tracking
+D:\NTracker
 │   track.py # tracking script for yolov5
 │   tracker.py # NTracker code
 │
