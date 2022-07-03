@@ -1,8 +1,8 @@
-# NTracker: A New Object Tracker For Multiple Object Tracking
+# ShinTracker: A New Object Tracker For Multiple Object Tracking
 
 ## Introduction
-NTracker is a standalone tracker which can be asscioated with any object detector.
-Below is an example of NTracker with [yolov5 detector](https://github.com/ultralytics/yolov5).
+ShinTracker is a standalone tracker which can be asscioated with any object detector.
+Below is an example of ShinTracker with [yolov5 detector](https://github.com/ultralytics/yolov5).
 
 (Tested on windows 11, python 3.9.13, torch 1.11.0+cu113.)
 
@@ -13,8 +13,8 @@ Install [cuda](https://developer.nvidia.com/cuda-downloads) and [pytorch](https:
 
 ```bash
 ### clone this repo
-git clone https://github.com/zyyume/NTracker
-cd NTracker
+git clone https://github.com/zyyume/ShinTracker
+cd ShinTracker
 mkdir weights
 mkdir output
   
@@ -33,9 +33,9 @@ download [yolov5 weights](https://github.com/ultralytics/yolov5/releases)
 
 ```bash
 ### install yolov5
-D:\NTracker
+D:\ShinTracker
 │   track.py # tracking script for yolov5
-│   tracker.py # NTracker code
+│   tracker.py # ShinTracker code
 │
 ├───input
 │       demo.jpg
@@ -66,7 +66,7 @@ python .\track.py --weights .\weights\yolov5x6.pt --source .\input\img_folder --
 </details>
 
 <details open>
-<summary>NTracker Configuration</summary>
+<summary>ShinTracker Configuration</summary>
 
 modify track.py line 94
 
