@@ -13,6 +13,13 @@ Install [cuda](https://developer.nvidia.com/cuda-downloads)
 Install [pytorch](https://pytorch.org/)
 
 ```bash
+### clone this repo
+git clone https://github.com/zyyume/NTracker
+cd NTracker
+mkdir weights
+mkdir output
+curl https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5x6.pt -o weights/yolov5x6.pt
+  
 ### install yolov5
 git clone https://github.com/ultralytics/yolov5  # clone
 cd yolov5
