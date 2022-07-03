@@ -55,14 +55,14 @@ D:\object_tracking
 <summary>Run</summary>
 
 ```bash
-### track a series of images
-python .\track.py --weights .\weights\yolov5x6.pt --source .\input\img_folder --classes 0
-
 ### track a video
-python .\track.py --weights .\weights\yolov5x6.pt --source .\input\demo.mp4 --classes 0
+python .\track.py --weights .\weights\yolov5x6.pt --source .\input\demo1.mp4 --classes 0
 
 ### track webcam
 python .\track.py --weights .\weights\yolov5x6.pt --source 0 --classes 0
+
+### track a series of images
+python .\track.py --weights .\weights\yolov5x6.pt --source .\input\img_folder --classes 0
 ```
 </details>
 
